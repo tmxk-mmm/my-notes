@@ -29,7 +29,7 @@ features:
     link: https://gitee.com/xt-gitee
   - title: 2
     icon: /othericon/gitee.svg
-    details: 文档分栏2
+    details: 文档分栏22
     link: https://gitee.com/xt-gitee
 
 copyright: false
