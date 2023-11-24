@@ -7,11 +7,11 @@ heroImage: /logo.png
 # bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 # bgImageStyle:background-attachment: fixed
 heroText: 小明学习笔记
-tagline: ✨一朝悟道见真我，昔日枷锁皆云烟✨
+tagline: ✨瓦片也有翻身日,东风也有转南时✨
 actions:
   - text: 【快速导航】
     icon: lightbulb
-    link: /guide/bar/
+    link: /quicknav/
     type: primary
 
   - text: 【代码笔记】

@@ -4,28 +4,46 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
-
+  // 文章显示的默认作者
   author: {
     name: "Mr.XiaoMing",
     url: "https://github.com/tmxk-mmm/my-notes",
   },
-
+  // 使用官方提供的图标库-也可以构建自己的图标库
   iconAssets: "iconfont",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  // 网站图标
+  logo: "./logo.png",
+  // 导航栏上的个人仓库地址
+  repo: "tmxk-mmm/my-notes",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // 自定义仓库链接文字-默认从repo中自动推断为"GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
+  repoLabel: 'GitHub',
 
+  // 全屏按钮
+  fullscreen: true,
+
+  // 返回顶部按钮-下滑100px后显示
+  backToTop: true,
+
+  // 是否在导航栏内显示仓库链接-默认为true
+  repoDisplay: true,
+
+  // 页面显示信息
+  pageInfo: ['Author', 'Date', 'Category', 'Tag', 'ReadingTime'],
+  // 文章所在目录
   docsDir: "src",
+  // 文档存放的分值，默认为 "main"
+  docsBranch: "master",
 
-  // navbar
+  // 导航栏
   navbar,
 
-  // sidebar
+  // 侧边栏
   sidebar,
 
-  footer: "默认页脚",
-
+  footer: "小明学习笔记",
+  // 显示页脚
   displayFooter: true,
 
   encrypt: {
@@ -33,21 +51,62 @@ export default hopeTheme({
       "/demo/encrypt.html": ["1234"],
     },
   },
-
+  // 博客配置
+  blog: {
+    // 头像
+    avatar: "/blog_head_logo.gif",
+    // 名称
+    name: "Mr.Mmm",
+    // 是否是圆形头像
+    roundAvatar: false,
+    // 个人描述
+    description: "你是无意穿堂风 偏偏孤倨引山洪",
+    // 社交媒体
+    medias: {
+      Gitee: "https://gitee.com/oucystong",
+    },
+    // 博客的侧边栏设置
+    sidebarDisplay: "mobile",
+    // 每页展示的文章数量
+    articlePerPage: 7,
+    timeline: "小明时光轴🍃",
+  },
   // page meta
   metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
+    editLink: "编辑此页",
   },
 
   plugins: {
-    // You should generate and use your own comment service
-    comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+    // 在MD文件中启用的组件
+    components: {
+      components: [
+        // 为站点提供了在MD文档中自定义颜色的徽章
+        'Badge',
+        // 为站点提供了在MD文档中加载B站视频的功能，但是不建议使用
+        'BiliBili',
+        // 为站点提供了在MD文档中加载PDF阅读器的功能，但是不建议使用
+        // 原因一：PDF书籍较大，上传到码云后会大量占用码云空间
+        // 原因二：当PDF阅读器较多的时候，将MD文档渲染成HTML页面比较耗费性能，使页面加载速度变慢
+        'PDF',
+      ],
     },
+    // 代码复制功能-vuepress-plugin-copy-code2
+    copyCode: {
+      // 在移动端也可以实现复制代码
+      showInMobile: true,
+      // 代码复制成功提示消息的时间-ms
+      duration: 3000,
+      // 纯净模式
+      fancy: true,
+    },
+    // You should generate and use your own comment service
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "vuepress-theme-hope/giscus-discussions",
+    //   repoId: "R_kgDOG_Pt2A",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
+    // },
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
