@@ -7,10 +7,10 @@ export default hopeTheme({
 
   author: {
     name: "Mr.XiaoMing",
-    url: "https://mister-hope.com",
+    url: "https://github.com/tmxk-mmm/my-notes",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "iconfont",
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
