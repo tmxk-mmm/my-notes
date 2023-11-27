@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as _,c as r}from"./app-wam6N7br.js";const t={};function c(o,a){return _(),r("div")}const f=e(t,[["render",c],["__file","var无作用域.html.vue"]]);export{f as default};
