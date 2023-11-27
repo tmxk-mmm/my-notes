@@ -11,7 +11,6 @@ export default defineUserConfig({
   title: "小明の学习笔记",
   description: "小明の学习笔记",
   head: [['link', { rel: 'icon', href: './favicon.svg' }]],
-
   theme,
   plugins: [
     // 注册全局组件的插件

@@ -1,15 +1,15 @@
 ---
 date: 2023-11-27
 # 当前页面内容标题
-title: var无作用域
+title: java
 # 当前页面图标
-icon: navigation
+icon: java
 # 分类
 category:
-    - 前端问题
+    - java
 # 标签
 tag:
-    - css问题
+    - java
 sticky: false
 # 是否收藏在博客主题的文章列表中，当填入数字时，数字越大，排名越靠前。
 star: true
@@ -18,9 +18,3 @@ article: false
 # 是否将该文章添加至时间线中
 timeline: true
 ---
-
-::: tip
-
-正在完善中...
-
-:::
