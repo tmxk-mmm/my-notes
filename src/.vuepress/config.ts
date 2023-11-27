@@ -8,8 +8,8 @@ export default defineUserConfig({
   base: "/my-notes/",
 
   lang: "zh-CN",
-  title: "小明学习笔记",
-  description: "小明学习笔记",
+  title: "小明の学习笔记",
+  description: "小明の学习笔记",
   head: [['link', { rel: 'icon', href: './favicon.svg' }]],
 
   theme,

@@ -1,21 +1,21 @@
-import { hopeTheme } from "vuepress-theme-hope";
-import navbar from "./navbar.js";
-import sidebar from "./sidebar/index.js";
+import { hopeTheme } from 'vuepress-theme-hope';
+import navbar from './navbar.js';
+import sidebar from './sidebar/index.js';
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: 'https://vuepress-theme-hope-docs-demo.netlify.app',
   // 文章显示的默认作者
   author: {
-    name: "Mr.XiaoMing",
-    url: "https://github.com/tmxk-mmm/my-notes",
+    name: 'Mr.XiaoMing',
+    url: 'https://github.com/tmxk-mmm/my-notes',
   },
   // 使用官方提供的图标库-也可以构建自己的图标库
-  iconAssets: "iconfont",
+  iconAssets: 'iconfont',
 
   // 网站图标
-  logo: "./logo.png",
+  logo: './logo.png',
   // 导航栏上的个人仓库地址
-  repo: "tmxk-mmm/my-notes",
+  repo: 'tmxk-mmm/my-notes',
 
   // 自定义仓库链接文字-默认从repo中自动推断为"GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
   repoLabel: 'GitHub',
@@ -32,9 +32,9 @@ export default hopeTheme({
   // 页面显示信息
   pageInfo: ['Author', 'Date', 'Category', 'Tag', 'ReadingTime'],
   // 文章所在目录
-  docsDir: "src",
+  docsDir: 'src',
   // 文档存放的分值，默认为 "main"
-  docsBranch: "master",
+  docsBranch: 'master',
 
   // 导航栏
   navbar,
@@ -42,38 +42,38 @@ export default hopeTheme({
   // 侧边栏
   sidebar,
 
-  footer: "小明学习笔记",
+  footer: '小明の学习笔记',
   // 显示页脚
   displayFooter: true,
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
+      '/demo/encrypt.html': ['1234'],
     },
   },
   // 博客配置
   blog: {
     // 头像
-    avatar: "/logo.png",
+    avatar: '/logo.png',
     // 名称
-    name: "Mr.Xiaoming",
+    name: 'Mr.Xiaoming',
     // 是否是圆形头像
     roundAvatar: true,
     // 个人描述
-    description: "离群索居者，不是野兽，便是神灵",
+    description: '离群索居者，不是野兽，便是神灵',
     // 社交媒体
     medias: {
-      Github: "https://github.com/tmxk-mmm",
+      Github: 'https://github.com/tmxk-mmm',
     },
     // 博客的侧边栏设置
-    sidebarDisplay: "mobile",
+    sidebarDisplay: 'mobile',
     // 每页展示的文章数量
     articlePerPage: 7,
-    timeline: "小明时光轴🍃",
+    timeline: '小明の时光轴🍃',
   },
   // page meta
   metaLocales: {
-    editLink: "编辑此页",
+    editLink: '编辑此页',
   },
 
   plugins: {
@@ -151,7 +151,7 @@ export default hopeTheme({
       // mermaid: true,
 
       playground: {
-        presets: ["ts", "vue"],
+        presets: ['ts', 'vue'],
       },
 
       // install reveal.js before enabling it
@@ -161,13 +161,13 @@ export default hopeTheme({
 
       stylize: [
         {
-          matcher: "Recommended",
+          matcher: 'Recommended',
           replacer: ({ tag }) => {
-            if (tag === "em")
+            if (tag === 'em')
               return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
+                tag: 'Badge',
+                attrs: { type: 'tip' },
+                content: 'Recommended',
               };
           },
         },
