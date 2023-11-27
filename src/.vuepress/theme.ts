@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+import sidebar from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
@@ -54,16 +54,16 @@ export default hopeTheme({
   // 博客配置
   blog: {
     // 头像
-    avatar: "/blog_head_logo.gif",
+    avatar: "/logo.png",
     // 名称
-    name: "Mr.Mmm",
+    name: "Mr.Xiaoming",
     // 是否是圆形头像
-    roundAvatar: false,
+    roundAvatar: true,
     // 个人描述
-    description: "你是无意穿堂风 偏偏孤倨引山洪",
+    description: "离群索居者，不是野兽，便是神灵",
     // 社交媒体
     medias: {
-      Gitee: "https://gitee.com/oucystong",
+      Github: "https://github.com/tmxk-mmm",
     },
     // 博客的侧边栏设置
     sidebarDisplay: "mobile",
@@ -91,14 +91,15 @@ export default hopeTheme({
       ],
     },
     // 代码复制功能-vuepress-plugin-copy-code2
-    copyCode: {
-      // 在移动端也可以实现复制代码
-      showInMobile: true,
-      // 代码复制成功提示消息的时间-ms
-      duration: 3000,
-      // 纯净模式
-      fancy: true,
-    },
+    // copyCode: {
+    //   // 在移动端也可以实现复制代码
+    //   showInMobile: true,
+    //   // 代码复制成功提示消息的时间-ms
+    //   duration: 3000,
+    //   // 纯净模式
+    //   fancy: true,
+    // },
+
     // You should generate and use your own comment service
     // comment: {
     //   provider: "Giscus",
@@ -179,7 +180,9 @@ export default hopeTheme({
       // install @vue/repl before enabling it
       // vuePlayground: true,
     },
-
+    blog: {
+      excerptLength: 0,
+    },
     // uncomment these if you want a pwa
     // pwa: {
     //   favicon: "/favicon.ico",

@@ -10,7 +10,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "小明学习笔记",
   description: "小明学习笔记",
-  head: [['link', { rel: 'icon', href: './favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: './favicon.svg' }]],
 
   theme,
   plugins: [
@@ -34,6 +34,7 @@ export default defineUserConfig({
         },
       ],
     }),
+
   ]
   // Enable it with pwa
   // shouldPrefetch: false,

@@ -25,12 +25,12 @@ actions:
 features:
   - title: 1
     icon: /othericon/gitee.svg
-    details: 文档分栏1
-    link: https://gitee.com/xt-gitee
+    details: 占位1
+    # link: https://gitee.com/xt-gitee
   - title: 2
     icon: /othericon/gitee.svg
-    details: 文档分栏22
-    link: https://gitee.com/xt-gitee
+    details: 占位2
+    # link: https://gitee.com/xt-gitee
 
 copyright: false
 footer: 天马行空 | Copyright © 2023-present Mr.XiaoMing

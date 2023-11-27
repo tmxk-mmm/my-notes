@@ -10,6 +10,7 @@ category:
 tag:
   - 优质博客
   - 搜索引擎
+  - 在线工具
 sticky: false
 # 是否收藏在博客主题的文章列表中，当填入数字时，数字越大，排名越靠前。
 star: false
@@ -25,7 +26,7 @@ timeline: true
 
 ## 在线工具
 
-<NavCard arr='[{"title":"HTML格式化","url":"https://www.qianbo.com.cn/Tool/Beautify/Html-Formatter.html","desc":"在线HTML格式化","icon":"/navicon/formatter.ico"},{"title":"JS格式化","url":"https://toolwa.com/github/","desc":"在线JS格式化","icon":"/navicon/formatter.ico"},{"title":"下载加速","url":"https://toolwa.com/github/","desc":"Github下载加速","icon":"/navicon/github.ico"},{"title":"菜鸟工具","url":"https://c.runoob.com/","desc":"菜鸟教程提供的工具集","icon":"/navicon/cainiao.ico"},{"title":"工具集","url":"https://tool.oschina.net/","desc":"开源中国提供的工具集","icon":"/navicon/oschina.ico"},{"title":"程序员","url":"https://tool.lu/","desc":"程序员的工具箱","icon":"/navicon/chengxuyuan.ico"},{"title":"脚本之家","url":"http://tools.jb51.net/","desc":"脚本之家提供的工具箱","icon":"/navicon/jiaoben.ico"},{"title":"W3C","url":"https://123.w3cschool.cn/webtools","desc":"W3C School旗下提供的工具箱","icon":"/navicon/w3c.ico"},{"title":"云转换","url":"https://cloudconvert.com/","desc":"在线转化","icon":"/navicon/yun.png"}]
+<NavCard arr='[{"title":"HTML格式化","url":"https://www.qianbo.com.cn/Tool/Beautify/Html-Formatter.html","desc":"在线HTML格式化","icon":"/navicon/formatter.ico"},{"title":"JS格式化","url":"https://www.qianbo.com.cn/Tool/Beautify/Js-Formatter.html","desc":"在线JS格式化","icon":"/navicon/formatter.ico"},{"title":"代码片段","url":"https://snippet-generator.app/?description=&tabtrigger=&snippet=&mode=vscode","desc":"生成代码片段","icon":"/navicon/snippet.ico"},{"title":"下载加速","url":"https://toolwa.com/github/","desc":"Github下载加速","icon":"/navicon/github.ico"},{"title":"菜鸟工具","url":"https://c.runoob.com/","desc":"菜鸟教程提供的工具集","icon":"/navicon/cainiao.ico"},{"title":"工具集","url":"https://tool.oschina.net/","desc":"开源中国提供的工具集","icon":"/navicon/oschina.ico"},{"title":"程序员","url":"https://tool.lu/","desc":"程序员的工具箱","icon":"/navicon/chengxuyuan.ico"},{"title":"脚本之家","url":"http://tools.jb51.net/","desc":"脚本之家提供的工具箱","icon":"/navicon/jiaoben.ico"},{"title":"W3C","url":"https://123.w3cschool.cn/webtools","desc":"W3C School旗下提供的工具箱","icon":"/navicon/w3c.ico"},{"title":"云转换","url":"https://cloudconvert.com/","desc":"在线转化","icon":"/navicon/yun.png"}]
 '></NavCard>
 
 ## 开源社区
