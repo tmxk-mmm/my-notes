@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as c,c as n,a as t}from"./app-UFT4QGQj.js";const o={},_=t("div",{class:"hint-container tip"},[t("p",{class:"hint-container-title"},"提示"),t("p",null,"正在完善中...")],-1),s=[_];function a(r,i){return c(),n("div",null,s)}const f=e(o,[["render",a],["__file","var无作用域.html.vue"]]);export{f as default};
