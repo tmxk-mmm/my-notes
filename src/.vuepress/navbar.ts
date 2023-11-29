@@ -13,6 +13,10 @@ export default navbar([
         link: "/code/java",
         activeMatch: "^/code/$",
       },
+      {
+        text: "遥遥领先",
+        children: ["/code/harmonyOS/4.0"],
+      },
     ]
   },
   { text: "问题整理", icon: "code", link: "/question/" },
