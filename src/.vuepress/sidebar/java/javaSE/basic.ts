@@ -3,9 +3,9 @@ import { arraySidebar } from "vuepress-theme-hope";
 export const java = arraySidebar([
     "",
     {
-        text: "javaSE",
-        icon: "java",
-        prefix: "javaSE",
+        text: "javaSE基础",
+        icon: "editor",
+        prefix: "javaSE基础",
         children: ["javaSE基础", "javaSE进阶"],
     },
 ])

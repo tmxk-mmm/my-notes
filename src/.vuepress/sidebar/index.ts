@@ -5,5 +5,6 @@ import { java } from "./java/index.js"
 export default sidebar({
     "/question/": question,
     "/question/web/native/": native,
-    "/code/java/": java
+    "/code/java/": java,
+    "/code/java/javaSE/javaSE基础": "structure"
 });

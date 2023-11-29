@@ -7,7 +7,7 @@
             "# 当前页面内容标题",
             "title: ${TM_FILENAME_BASE}",
             "# 当前页面图标",
-            "icon: navigation",
+            "icon: edit",
             "# 分类",
             "category:",
             "  - ${1|前端,java,前端问题|}",

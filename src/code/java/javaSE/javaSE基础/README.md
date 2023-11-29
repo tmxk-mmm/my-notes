@@ -1,9 +1,9 @@
 ---
 date: 2023-11-28
 # 当前页面内容标题
-title: javaSE基础
+title: 导航目录
 # 当前页面图标
-icon: java
+icon: note
 # 分类
 category:
   - java
