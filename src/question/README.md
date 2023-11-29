@@ -5,7 +5,7 @@ title: 问题整理
 # 当前页面图标
 icon: question
 sticky: 20
-star: true
+star: false
 breadcrumb: false
 ---
 

@@ -13,15 +13,6 @@ actions:
       icon: lightbulb
       link: /quicknav/
       type: primary
-
-    - text: 【代码笔记】
-      link: /codenotes/
-
-    - text: 【浮生杂记】
-      link: /floatinglife/
-
-    - text: 【软件教程】
-      link: /projects/
 features:
     - title: 1
       icon: /othericon/gitee.svg
