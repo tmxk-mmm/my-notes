@@ -26,7 +26,53 @@ footer: 遥遥领先
 3. 创建图标，环境变量如下图
 
 ![](./img/创建图标环境变量.png)  
-
 4. 直接install安装
 
 ## 配置
+
+5. 打开ide配置同意协议
+![](./img/配置ide1.png)  
+
+6. 首次安装
+
+![](./img/配置ide2.png)  
+
+7. 基本环境安装
+   
+![](./img/配置ide3.png)  
+
+8. sdk安装
+
+![](./img/配置ide4.png)  
+
+9. 每个sdk都同意协议
+
+![](./img/配置ide5.png)  
+
+10. next 等待安装完成
+
+![](./img/配置ide6.png)  
+
+## 问题
+1. 安装sdk失败
+   
+![](./img/安装sdk失败.png)  
+
+2. 打开配置
+
+![](./img/打开设置.png)  
+
+3. npm换源(1)
+   
+![](./img/npm换源.png)  
+
+4. npm换源(2)
+   
+``` js
+https://registry.npmjs.org/
+```   
+![](./img/npm换源1.png)  
+
+1. 重新安装sdk
+   
+![](./img/重新安装sdk.png)  
