@@ -25,3 +25,9 @@ HarmonyOS 回归本源设计，从浩瀚宇宙中抽象出动态语言，模拟�
 [官网](https://developer.harmonyos.com/)
 
 [开发指南](https://developer.harmonyos.com/cn/docs/documentation/doc-guides-V3/start-overview-0000001478061421-V3?catalogVersion=V3)
+
+[官方学堂](https://developer.harmonyos.com/cn/documentation/teaching-video/)
+
+[开发者能力认证](https://developer.huawei.com/consumer/cn/training/dev-certification/a617e0d3bc144624864a04edb951f6c4)
+
+

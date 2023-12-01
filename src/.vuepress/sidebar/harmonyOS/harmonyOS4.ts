@@ -7,6 +7,6 @@ export const harmonyOS4 = arraySidebar([
     icon: "info",
     // collapsible: false,
     // prefix: "/4.0/",
-    children: ["intro", "install"],
+    children: ["intro", "install", "arkTs"],
   }
 ]);
