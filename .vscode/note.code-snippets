@@ -54,4 +54,32 @@
         ],
         "description": "笔记标题部分生成笔记标题部分生成鸿蒙HarmonyOS"
     }
+    ,
+    "问题整理": {
+        "prefix": "note-title-question",
+        "body": [
+            "---",
+            "date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+            "# 当前页面内容标题",
+            "title: ${TM_FILENAME_BASE}问题",
+            "# 当前页面图标",
+            "icon: question",
+            "# 分类",
+            "category:",
+            "  - ${1|前端,后端|}",
+            "# 标签",
+            "tag:",
+            "  - ${2|原生,layui,vue,java|}",
+            "sticky: false",
+            "order: ${3}"
+            "# 是否收藏在博客主题的文章列表中，当填入数字时，数字越大，排名越靠前。",
+            "star: true",
+            "# 是否将该文章添加至文章列表中",
+            "article: true",
+            "# 是否将该文章添加至时间线中",
+            "timeline: true",
+            "---"
+        ],
+        "description": "笔记标题部分生成问题整理"
+    }
 }

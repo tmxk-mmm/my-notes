@@ -2,7 +2,7 @@
 # 当前页面内容标题
 title: js问题
 # 当前页面图标
-icon: navigation
+icon: question
 # 分类
 category:
   - 前端问题
@@ -19,4 +19,5 @@ article: false
 timeline: true
 ---
 
-<AutoCatalog />
+-   ES5 问题
+    -   [var 无作用域](./var无作用域.md)

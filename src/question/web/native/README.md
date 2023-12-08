@@ -1,8 +1,8 @@
 ---
 # 当前页面内容标题
-title: 原生问题
+title: 原生问题目录
 # 当前页面图标
-icon: navigation
+icon: question
 # 分类
 category:
   - 前端问题

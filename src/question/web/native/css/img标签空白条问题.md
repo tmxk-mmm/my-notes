@@ -2,7 +2,7 @@
 # 当前页面内容标题
 title: img标签空白条问题
 # 当前页面图标
-icon: navigation
+icon: question
 # 分类
 category:
   - 前端问题
