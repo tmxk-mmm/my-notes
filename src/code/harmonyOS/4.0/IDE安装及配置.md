@@ -53,8 +53,9 @@ order: 2
 10. next 等待安装完成
 
 ![](./img/配置ide6.png)  
-
+<div id="npm-question"></div>
 ## 问题
+
 1. 安装sdk失败
    
 ![](./img/安装sdk失败.png)  

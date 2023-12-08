@@ -21,8 +21,8 @@ export default navbar([
   },
   { text: "问题整理", icon: "code", link: "/question/" },
   {
-    text: "占位",
+    text: "文档",
     icon: "book",
-    link: "https://www.baidu.com/",
+    link: "https://theme-hope.vuejs.press/zh/get-started/",
   },
 ]);

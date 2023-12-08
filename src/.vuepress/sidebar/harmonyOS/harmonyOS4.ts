@@ -7,6 +7,6 @@ export const harmonyOS4 = arraySidebar([
     icon: "info",
     // collapsible: false,
     // prefix: "/4.0/",
-    children: ["intro", "install", "arkTs", "快速入门"],
+    children: ["简介", "IDE安装及配置", "了解ArkTs语言", "快速入门", "模拟器安装", "组件"],
   }
 ]);
