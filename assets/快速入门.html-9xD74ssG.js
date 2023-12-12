@@ -1,6 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as a,c as i,e as n}from"./app-DDCqsSfd.js";const s="/my-notes/assets/操作指南(预览)-6q5adwQa.png",r="/my-notes/assets/代码结构-8Wu85sbe.png",t={},d=n(`<h2 id="目录结构" tabindex="-1"><a class="header-anchor" href="#目录结构" aria-hidden="true">#</a> 目录结构</h2><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>├── entry 入口文件
-  ├── src
-    ├── main 
-      ├── ets 代码
-      ├── resources 静态资源文件，国际化....
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="操作指南" tabindex="-1"><a class="header-anchor" href="#操作指南" aria-hidden="true">#</a> 操作指南</h2><h3 id="预览" tabindex="-1"><a class="header-anchor" href="#预览" aria-hidden="true">#</a> 预览</h3><figure><img src="`+s+'" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure><h2 id="代码结构" tabindex="-1"><a class="header-anchor" href="#代码结构" aria-hidden="true">#</a> 代码结构</h2><figure><img src="'+r+'" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>',7),c=[d];function o(l,h){return a(),i("div",null,c)}const m=e(t,[["render",o],["__file","快速入门.html.vue"]]);export{m as default};
