@@ -19,7 +19,6 @@ article: true
 # 是否将该文章添加至时间线中
 timeline: true
 ---
-
 ## 搜索引擎
 
 <NavCard arr='[{"title":"百度","url":"https://www.baidu.com/","desc":"中文搜索引擎","icon":"/navicon/baidu.ico"},{"title":"必应","url":"https://cn.bing.com/","desc":"优秀的国内外搜索引擎","icon":"/navicon/bing.ico"},{"title":"谷歌","url":"https://www.google.com/","desc":"被墙的国内外搜索引擎","icon":"/navicon/google.ico"},{"title":"找代码","url":"https://www.programcreek.com/java-api-examples/index.php","desc":"搜一下某个类的使用方法","icon":"/navicon/java.ico"}]'></NavCard>
@@ -51,4 +50,5 @@ timeline: true
 ## 其他导航
 
 <NavCard arr='[{"title":"MyOctoCat","url":"https://myoctocat.com/","desc":"程序员头像","icon":"/navicon/github.ico"},{"title":"LeetCode","url":"https://leetcode.cn/","desc":"刷题网站","icon":"/navicon/leetcode.ico"},{"title":"Jar包下载","url":"https://search.maven.org/","desc":"Jar包个版本下载","icon":"/navicon/jar.ico"},{"title":"ghelper","url":"http://ghelper.net/","desc":"看世界","icon":"/navicon/ghelper.png"},{"title":"Maven仓库","url":"https://mvnrepository.com/","desc":"Maven官方仓库","icon":"/navicon/mvn.ico"}]'></NavCard>
+
 
