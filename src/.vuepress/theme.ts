@@ -56,7 +56,7 @@ export default hopeTheme({
     // 头像
     avatar: '/logo.png',
     // 名称
-    name: 'Mr.Xiaoming',
+    name: 'Mr.XiaoMing',
     // 是否是圆形头像
     roundAvatar: true,
     // 个人描述
