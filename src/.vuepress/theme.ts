@@ -60,7 +60,7 @@ export default hopeTheme({
     // 是否是圆形头像
     roundAvatar: true,
     // 个人描述
-    description: '离群索居者，不是野兽，便是神灵',
+    description: '你又怎么知道，今天的无名之辈来日会不会名震天下',
     // 社交媒体
     medias: {
       Github: 'https://github.com/tmxk-mmm',
