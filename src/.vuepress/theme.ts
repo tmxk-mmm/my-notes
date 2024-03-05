@@ -56,7 +56,7 @@ export default hopeTheme({
     // 头像
     avatar: '/logo.png',
     // 名称
-    name: 'Mr.Xiaoming',
+    name: 'Mr.XiaoMing',
     // 是否是圆形头像
     roundAvatar: true,
     // 个人描述
@@ -91,14 +91,14 @@ export default hopeTheme({
       ],
     },
     // 代码复制功能-vuepress-plugin-copy-code2
-    // copyCode: {
-    //   // 在移动端也可以实现复制代码
-    //   showInMobile: true,
-    //   // 代码复制成功提示消息的时间-ms
-    //   duration: 3000,
-    //   // 纯净模式
-    //   fancy: true,
-    // },
+    copyCode: {
+      // 在移动端也可以实现复制代码
+      showInMobile: true,
+      // // 代码复制成功提示消息的时间-ms
+      // duration: 3000,
+      // // 纯净模式
+      // fancy: true,  
+    },
 
     // You should generate and use your own comment service
     // comment: {

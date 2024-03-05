@@ -13,12 +13,16 @@ export default navbar([
         link: "/code/java",
         activeMatch: "^/code/$",
       },
+      {
+        text: "遥遥领先",
+        children: ["/code/harmonyOS/4.0"],
+      },
     ]
   },
   { text: "问题整理", icon: "code", link: "/question/" },
   {
-    text: "占位",
+    text: "文档",
     icon: "book",
-    link: "https://www.baidu.com/",
+    link: "https://theme-hope.vuejs.press/zh/get-started/",
   },
 ]);

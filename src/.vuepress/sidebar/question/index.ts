@@ -6,7 +6,7 @@ export const question = arraySidebar([
         text: "前端问题",
         icon: "creative",
         prefix: "web/",
-        children: ["native/", "layui/", "vue/"],
+        children: ["native/", "layui/", "vue/", "miniprogram/"],
     },
     {
         text: "后端问题",

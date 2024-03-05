@@ -2,7 +2,7 @@
 # 当前页面内容标题
 title: js问题
 # 当前页面图标
-icon: navigation
+icon: question
 # 分类
 category:
   - 前端问题
@@ -17,6 +17,6 @@ star: false
 article: false
 # 是否将该文章添加至时间线中
 timeline: true
+index: false
 ---
-
-<AutoCatalog />
+<AutoCatalog/>

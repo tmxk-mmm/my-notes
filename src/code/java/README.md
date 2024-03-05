@@ -1,20 +1,21 @@
 ---
-date: 2023-11-27
+date: 2023-11-28
 # 当前页面内容标题
-title: java
+title: java学习笔记
 # 当前页面图标
-icon: java
+icon: note
 # 分类
 category:
-    - java
+  - java
 # 标签
 tag:
-    - java
+  - java目录
 sticky: false
 # 是否收藏在博客主题的文章列表中，当填入数字时，数字越大，排名越靠前。
 star: true
+footer: ✨重走来时路✨
 # 是否将该文章添加至文章列表中
-article: false
+# article: false
 # 是否将该文章添加至时间线中
-timeline: true
+# timeline: true
 ---
