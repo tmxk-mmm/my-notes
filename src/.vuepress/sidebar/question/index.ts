@@ -9,6 +9,12 @@ export const question = arraySidebar([
         children: ["native/", "layui/", "vue/", "miniprogram/"],
     },
     {
+        text: "linux相关问题",
+        icon: "creative",
+        // prefix: "web/",
+        children: ["linux/"],
+    },
+    {
         text: "后端问题",
         icon: "creative",
         prefix: "backend/",
