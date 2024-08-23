@@ -48,7 +48,7 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      '/demo/encrypt.html': ['1234'],
+      '/demo/encrypt.html': [`${password}`],
     },
   },
   // 博客配置
