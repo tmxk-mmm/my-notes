@@ -26,3 +26,5 @@ features:
 copyright: false
 footer: 天马行空 | Copyright © 2023-present Mr.XiaoMing
 ---
+
+<AutoCatalog />

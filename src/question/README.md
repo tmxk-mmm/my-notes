@@ -9,8 +9,4 @@ star: false
 breadcrumb: false
 ---
 
-::: tip
-
-正在完善中 0...
-
-:::
+<AutoCatalog />

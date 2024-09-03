@@ -1,7 +1,7 @@
 ---
 date: 2024-06-19
 # 当前页面内容标题
-title: 目录
+title: linux相关问题
 # 当前页面图标
 icon: navigation
 # 分类
@@ -17,9 +17,4 @@ star: true
 # 是否将该文章添加至时间线中
 # timeline: true
 ---
-::: tip
-
-目录
-
-:::
 <AutoCatalog />
