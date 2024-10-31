@@ -20,8 +20,9 @@ export default navbar([
     ]
   },
   { text: "问题整理", icon: "code", link: "/question/" },
+  { text: "金句摘录", icon: "list", link: "/code/extract/" },
   {
-    text: "文档",
+    text: "theme-hope文档",
     icon: "book",
     link: "https://theme-hope.vuejs.press/zh/get-started/",
   },
